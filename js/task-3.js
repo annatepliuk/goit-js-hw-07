@@ -5,4 +5,3 @@ input.addEventListener('input', () => {
     const trimmedValue = input.value.trim();
     output.textContent = trimmedValue ? trimmedValue : 'Anonymous';
 });
-
